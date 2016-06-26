@@ -1,0 +1,52 @@
+@import "variables.less";
+
+
+//FONTS
+@font-face {
+  font-family: 'IstokBold';
+  src: url('istokweb-bold.eot');
+  src: url('istokweb-bold.eot?#iefix') format('embedded-opentype'),
+       url('istokweb-bold.woff2') format('woff2'),
+       url('istokweb-bold.woff') format('woff'),
+       url('istokweb-bold.ttf')  format('truetype'),
+       url('istokweb-bold.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-family: 'IstokRegular';
+  src: url('istokweb-regular.eot');
+  src: url('istokweb-regular.eot?#iefix') format('embedded-opentype'),
+       url('istokweb-regular.woff2') format('woff2'),
+       url('istokweb-regular.woff') format('woff'),
+       url('istokweb-regular.ttf')  format('truetype'),
+       url('istokweb-regular.svg#svgFontName') format('svg');
+}
+
+
+//COMMON STYLES
+
+.container-fluid {
+	max-width: 1800px;
+}
+
+body {
+	font-family: IstokBold, Arial, sans-serif;
+}
+
+* {
+	outline: none!important;
+}
+
+h1 {
+	color: @color-header;
+	font-weight: bold;
+}
+
+p {
+	color: @color-p;
+	font-family: IstokRegular, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+
