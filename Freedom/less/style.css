@@ -9,7 +9,7 @@
   src: url('istokweb-regular.eot?#iefix') format('embedded-opentype'), url('istokweb-regular.woff2') format('woff2'), url('istokweb-regular.woff') format('woff'), url('istokweb-regular.ttf') format('truetype'), url('istokweb-regular.svg#svgFontName') format('svg');
 }
 .container-fluid {
-  max-width: 1800px;
+  max-width: 1830px;
 }
 body {
   font-family: IstokBold, Arial, sans-serif;
@@ -26,4 +26,68 @@ p {
   font-family: IstokRegular, Arial, sans-serif;
   font-size: 13px;
   font-weight: bold;
+}
+div.navbar {
+  padding: 0 15px 0 15px;
+  border: 0;
+  background-color: transparent;
+}
+nav.navbar {
+  border: 0;
+  border-radius: 0;
+  position: static;
+  margin: 0 auto;
+  height: 75px;
+  max-width: 1800px;
+  background-color: rgba(119, 91, 163, 0.631);
+}
+nav.navbar .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+nav.navbar h1 {
+  float: left;
+  margin: 0;
+  background: url("../img/Forme2.png") 75px 0px no-repeat;
+}
+nav.navbar h1 span {
+  margin: 4px;
+}
+nav.navbar a.navbar-brand {
+  color: white;
+  font-size: 43px;
+  line-height: 40px;
+  font-weight: 100;
+}
+nav.navbar a.navbar-brand:hover,
+nav.navbar a.navbar-brand:focus,
+nav.navbar a.navbar-brand:active {
+  color: white;
+}
+nav.navbar .navbar-nav:first-child {
+  margin-left: 75px;
+}
+nav.navbar ul.navbar-nav li a {
+  color: white;
+  font-size: 14px;
+  height: 75px;
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav.navbar ul.navbar-nav li.active a,
+nav.navbar ul.navbar-nav li.active a:hover,
+nav.navbar ul.navbar-nav a:hover,
+nav.navbar ul.navbar-nav a:focus,
+nav.navbar ul.navbar-nav a:active {
+  background-color: transparent;
+  color: white;
+  border-bottom: 3px solid;
+}
+.slider-header .carousel-indicators li {
+  height: 18px;
+  width: 18px;
+  border: 2px solid white;
+  margin-bottom: -20px;
+  margin-right: 8px;
 }

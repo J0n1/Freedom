@@ -26,7 +26,8 @@
 //COMMON STYLES
 
 .container-fluid {
-	max-width: 1800px;
+	max-width: 1830px;
+
 }
 
 body {
@@ -49,4 +50,88 @@ p {
 	font-weight: bold;
 }
 
+// NAVBAR TOP
+
+div.navbar {
+	padding: 0 15px 0 15px;
+	border: 0;
+	background-color: transparent;
+}
+
+nav.navbar {
+	border: 0;
+	border-radius: 0;
+	position: static;
+	margin: 0 auto;
+	height: 75px;
+	max-width: 1800px;
+	background-color: @bcg-navbar;
+	
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	h1 {
+		float: left;
+		margin: 0;
+		background: url("../img/Forme2.png") 75px 0px no-repeat;
+		
+		span {
+			margin: 4px;
+		}
+	}
+
+	a.navbar-brand {
+		color: @color-header-inverse;
+		font-size: 43px;
+		line-height: 40px;
+		font-weight: 100;
+		
+		&:hover,
+		&:focus,
+		&:active {
+			color: @color-header-inverse;
+		}
+	}
+
+	.navbar-nav:first-child{
+		margin-left: 75px;
+	}
+
+	ul.navbar-nav {
+		li a {
+			color: @color-header-inverse;
+			font-size: 14px;
+			height: 75px;
+			line-height: 40px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		li.active a,
+		li.active a:hover,
+		a:hover,
+		a:focus,
+		a:active {
+			background-color: transparent;
+			color: @color-header-inverse;
+			border-bottom: 3px solid;
+			}
+	}
+}
+
+// SLIDER
+
+.slider-header {
+	.carousel-indicators {
+		li {
+			height: 18px;
+			width: 18px;
+			border: 2px solid @color-header-inverse;
+			margin-bottom: -20px;
+			margin-right: 8px;
+		}
+	}
+}
 
