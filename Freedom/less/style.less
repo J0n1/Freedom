@@ -368,7 +368,7 @@ nav.navbar {
 
 // REVIEWS
 
-.reviews{
+.reviews {
 	border-bottom: 1px solid @color-footer1;
 	padding-bottom: 91px;
 	
@@ -446,3 +446,170 @@ nav.navbar {
 	}
 }
 
+
+
+// PORTFOLIO
+
+.portfolio {
+	.col-lg-12 {
+		h1 {
+			text-transform: uppercase;
+			margin-bottom: 10px;
+		}
+	}
+
+	.nav {
+		
+		margin-bottom: 50px;
+
+		li, li.active {
+			a {
+				border: 0;
+				color: @color-header;
+				text-transform: uppercase;
+				font-weight: bold;
+				font-size: 15px;
+				background: none;
+				border-bottom: 3px solid transparent;
+				padding: 0;
+				margin: 10px 16px 10px 16px;
+				
+				&:hover {
+					border-bottom: 3px solid @color-footer1;
+					background: none;
+				}
+			}
+		}
+		li.active {
+			a {
+				border-bottom: 3px solid @color-footer1;
+			}
+		}
+	}
+
+	.nav-tabs>li {
+    	float:none;
+    	display:inline-block;
+    	*display:inline; /* ie7 fix */
+     	zoom:1; /* hasLayout ie7 trigger */
+	}
+
+	.nav-tabs {
+	    text-align:center;
+	    border: 0;
+	}
+
+	.tab-content{
+
+		.col-sm-3 {
+			padding: 0;
+		}
+
+		.portfolio-item {
+			
+		}
+
+		.portfolio-link {
+			position: relative;
+			
+			.cover {
+				background-color: fade(#fff, 45%);
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				opacity: 0;
+				.transition(0.6s, ease);
+				
+				&:hover {
+					opacity: 1;
+				}
+
+				.cover-content{
+					width: 124px;
+					margin: 0 auto;
+					height: 100%;
+					margin-top: 35%;
+					
+					a {
+						display: inline-block;
+						float: left;
+						background-color: @color-cover;
+						margin: 4px;
+						padding: 13px;
+						width: 54px;
+						height: 54px;
+					}
+
+					span {
+						display: block;
+						width: 54px;
+						height: 54px;
+					}
+
+					a:nth-child(1) span {
+						background: url("../img/Shape1.png") 0px 0px no-repeat;
+					}
+					a:nth-child(2) span {
+						background: url("../img/Shape11.png") 0px 0px no-repeat;
+					}
+				}
+			}
+		}
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+
+
+
+
+// PORTFOLIO-MODAL
+
+.portfolio-modal {
+	
+	.modal-dialog{
+		width: 75%;
+	}
+
+	.modal-header{
+		border: none;
+		
+		.close{
+			width: 30px;
+			height: 30px;
+			font-size: 50px;
+		}
+	}
+
+	.modal-content {
+		border: none;
+		border-radius: 0;
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+		text-align: center;
+		
+		img {
+			display: inline-block;
+			width: 75%;
+			height: auto;
+			margin-bottom: 50px;
+		}
+	}
+
+	.modal-footer{
+		border: none;
+		
+		button {
+			height: 40px;
+			width: 120px;
+			font-weight: bold;
+			text-transform: uppercase;
+			-webkit-border-radius: 0;
+			        border-radius: 0;
+		}
+	}
+}
