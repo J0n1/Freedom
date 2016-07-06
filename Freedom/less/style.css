@@ -327,6 +327,9 @@ nav.navbar ul.navbar-right li:nth-child(1n+2) {
 .slider-reviews .carousel-indicators li.active {
   background-color: #91c5a9;
 }
+.portfolio {
+  padding-bottom: 50px;
+}
 .portfolio .col-lg-12 h1 {
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -418,8 +421,86 @@ nav.navbar ul.navbar-right li:nth-child(1n+2) {
   width: 100%;
   height: auto;
 }
+.footer-main h1 {
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+.footer-main p {
+  line-height: 1.3;
+}
+.footer-main .footer-col {
+  padding-top: 35px;
+  background-color: #91c5a9;
+}
+.footer-main .tags a {
+  background-color: #4f9670;
+  font-size: 11px;
+  padding: 8px 15px 8px 14px;
+  display: inline-block;
+  margin: 0px 0px 12px 18px;
+}
+.footer-main .contact {
+  color: white;
+}
+.footer-main .contact .form-group {
+  margin-bottom: 8px;
+}
+.footer-main .contact label {
+  font-weight: 100;
+  text-align: left;
+}
+.footer-main .contact .form-control {
+  border: 1px solid #4f9670;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 13px;
+}
+.footer-main .contact .form-control:focus {
+  border-color: #54865d;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.footer-main .contact input.form-control {
+  height: 30px;
+}
+.footer-main .contact textarea {
+  resize: none;
+}
+.footer-main .contact .btn {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.footer-main .footer-nav {
+  background-color: #54865d;
+  padding: 30px 0 15px 0;
+}
+.footer-main .footer-nav address {
+  display: inline-block;
+  color: white;
+}
+.footer-main .footer-nav p {
+  display: inline-block;
+}
+.footer-main .footer-nav ul.navbar-nav li {
+  padding: 0;
+}
+.footer-main .footer-nav ul.navbar-nav li a {
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 0;
+  margin-right: 25px;
+}
+.footer-main .footer-nav ul.navbar-nav li:last-child {
+  margin-right: 0;
+}
+.footer-main .footer-nav ul.navbar-nav a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+}
 .portfolio-modal .modal-dialog {
   width: 75%;
+  max-width: 960px;
 }
 .portfolio-modal .modal-header {
   border: none;
